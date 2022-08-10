@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #3f5efb, #fc466b);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.dicesContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.first-color {
+  color: #2c4fff;
+}
+
+.dice1Wrapper, .dice2Wrapper {
+  margin: 0 25px 0 25px
+}
+
+.second-color {
+  color: #ff265c;
+}
+
+.dice-shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 140px;
+  height: 140px;
+  margin-top: 10px;
+}
+
+#num1, #num2 {
+  color: #78c9c7;
+  font-size: 52px;
+}
+
+
+#btn {
+  color: #78c9c7;
+  background:rgba(0, 0, 0, 0.35);
+  border: 0;
+  border-radius: 15px;
+  width: 4em;
+  height: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 5px 0 5px;
+  cursor: pointer;
+}
+
+.helpPhrase, #winnerAnounce  {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 14px;
+}
